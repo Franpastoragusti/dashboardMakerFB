@@ -1,0 +1,41 @@
+
+html {
+	background-color: #3b5997;
+}
+form{
+	width: 400px;
+	height: 300px;
+}
+label{
+	line-height: 30px;
+	 font-family: Arial;
+	 font-size: 20px;
+}
+input[type="text"]{
+	margin-top: 10px;
+}
+input[type="submit"]{
+	margin-top: 30px;
+  background: #3b5997;
+  background-image: linear-gradient(to bottom, #3b5997, #273a5e);
+  border-radius: 14px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 23px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+input[type="submit"]:hover {
+  background: #546c9e;
+  background-image: -webkit-linear-gradient(top, #546c9e, #3b5997);
+  background-image: -moz-linear-gradient(top, #546c9e, #3b5997);
+  background-image: -ms-linear-gradient(top, #546c9e, #3b5997);
+  background-image: -o-linear-gradient(top, #546c9e, #3b5997);
+  background-image: linear-gradient(to bottom, #546c9e, #3b5997);
+  text-decoration: none;
+}
+
+.uk-img-div{
+	max-width: 700px;
+}

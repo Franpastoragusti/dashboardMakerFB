@@ -22,12 +22,7 @@ function buildDesiredData (stadistics){
     });
 
     return originalData;
-
-
 }
-
-
-
 
 function buildDesiredWorkbook (stadistics) {
 	
